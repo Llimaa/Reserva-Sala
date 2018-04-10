@@ -1,0 +1,42 @@
+﻿@model DapperWeb.Models.Laboratorio
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Laboratorio</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Bloco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Bloco)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Observacao)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Observacao)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.ID }, new { @class = "btn btn-primary btn-large" })
+    @Html.ActionLink("Voltar", "Index",new {}, new { @class = "btn btn-primary btn-large" })
+</p>
