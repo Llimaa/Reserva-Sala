@@ -96,40 +96,78 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\freelancer.min.css" />
+    <Content Include="Content\magnific-popup.css" />
+    <Content Include="Content\nprogress.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\Sstyle.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="fonts\font-awesome.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="App_Readme\NProgressjs_README.md" />
+    <Content Include="App_Readme\NProgressjs_LICENSE" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Content\AdminLTE.min.css" />
+    <Content Include="Scripts\adminlte.min.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\contact_me.js" />
+    <Content Include="Scripts\demo.js" />
+    <Content Include="Scripts\fastclick.js" />
+    <Content Include="Scripts\freelancer.min.js" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Content\ionicons.min.css" />
+    <Content Include="Scripts\jqBootstrapValidation.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\jquery.slimscroll.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Content\skin-blue.min.css" />
+    <Content Include="Content\_all-skins.min.css" />
+    <Content Include="Scripts\nprogress.js" />
+    <Content Include="Scripts\nprogress.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2_Dapper\TipoCaixaSom.cs" />
     <Compile Include="2_Dapper\TipoLaboratorio.cs" />
     <Compile Include="2_Dapper\TipoRecursoProfessor.cs" />
     <Compile Include="1_Infra\IDapper.cs" />
     <Compile Include="1_Infra\SqlServe.cs" />
     <Compile Include="2_Dapper\TipoSala.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdministradorController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\ProfessorController.cs" />
     <Compile Include="Controllers\SalaController.cs" />
     <Compile Include="Controllers\TipoLaboratorioController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CaixaSom.cs" />
+    <Compile Include="Models\Computador.cs" />
+    <Compile Include="Models\DataShow.cs" />
     <Compile Include="Models\Laboratorio.cs" />
     <Compile Include="Models\Professor.cs" />
     <Compile Include="Models\Sala.cs" />
@@ -156,6 +194,10 @@
     <Content Include="Views\TipoLaboratorio\Edit.cshtml" />
     <Content Include="Views\TipoLaboratorio\Delete.cshtml" />
     <Content Include="Views\Sala\Delete.cshtml" />
+    <Content Include="Views\Shared\Administrativo.cshtml" />
+    <Content Include="Views\Administrador\Index.cshtml" />
+    <Content Include="Views\Login\_index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
